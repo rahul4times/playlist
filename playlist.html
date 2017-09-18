@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,39 +12,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Playlist Project - Rahul Sharma</title>
 </head>
-<body>
-  <!-- <div class="container"> -->
-    <div>
-      <!--Navbar div starts here-->
-      <nav id="top">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo"></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!--Navbar div ends here-->
-    <!--Main row starts here-->
-    <div class="row">
-      <div id="firstHalf" class="col s6">
-        <h2>track bin</h2>
-        <a href="playlist.html"><input type="button" class="btn" value="choose tracks"></a>
-      </div>
-      <div id="secondHalf" class="col s6 ">
 
+<body>
+
+  <div class="row">
+    <div id="playlist-top">
+      <div class="col s12">
+        <h4>click an album to add its tracks to the bin</h4>
       </div>
     </div>
-    <footer id="bottom">
-      <div class="footer-copyright">
-        &copy; 2017 Rahul Sharma
+  </div>
+  <!--Navbar div ends here-->
+  <!--Main row starts here-->
+  <div class="row">
+    <div id="albumRow" class="col s12">
+
+    </div>
+    <div id="displayRow" class="col s12">
+      <div id="txtArea">
       </div>
-    </footer>
-  <!-- </div> -->
-  <!--Container Ends Here-->
+    </div>
+    <div id="btnRow" class="col s12">
+      <input type="button" class="btn" id="clrTrk" value="clear track">
+      <input type="submit" class="btn" id="submitTrk" value="submit bin">
+    </div>
+
+  </div>
+  <footer id="bottom">
+    <div class="footer-copyright">
+      &copy; 2017 Rahul Sharma
+    </div>
+  </footer>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/mainPage.js"></script>
+  <script src="js/app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,124 @@
+/* author: Rahul g66 */
+/* Global CSS */
+*{
+  font-family: Avenir Next;
+}
+
+h2{
+  font-weight: 100px;
+  color: #632279;
+}
+
+.btn{
+  background-color: #353526;
+  border-radius: 4px;
+  text-transform: lowercase;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.btn:hover{
+  background-color: #686859;
+  color: white;
+}
+
+/* nav bar */
+#top{
+  background-color: #9B9B8C;
+  border-bottom: 1px solid black;
+  box-shadow: none;
+}
+
+/* footer */
+#bottom{
+  background-color: #686859;
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+  margin-top: -20px;
+
+}
+
+/* index page */
+/* left side of the page */
+#firstHalf{
+  text-align: center;
+  margin-top: 170px;
+}
+
+/* right side of the page */
+#secondHalf{
+  background-image: url(../resources/fadedTrack.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* index page pic display  */
+img{
+  width: 175px;
+  height: auto;
+  margin-top: 7px;
+  padding-bottom: 2px;
+}
+
+/* playlist.html page starts here */
+
+#playlist-top{
+  width: 100%;
+  height: 115px;
+  background-color: #9B9B8C;
+  color: white;
+  padding-left: 10px;
+  padding-top: 32px;
+}
+
+h4{
+  font-weight: lighter;
+
+}
+
+#txtArea{
+  background-color: #EEEEEE;
+  border: 2px solid black;
+  height: 200px;
+  width: 71%;
+  font-family: arial;
+  font-size: 18px;
+  text-align: left;
+  padding: 3px;
+  margin: auto;
+}
+
+#displayRow{
+  text-align: center;
+}
+.txt{
+  text-align: center;
+}
+
+#btnRow{
+  margin-top: 35px;
+  width: 100%;
+  margin-bottom: 100px;
+  padding: 0;
+  text-align: left;
+  margin-left: 15%;
+}
+
+#albumRow{
+  text-align: center;
+}
+.imgPlayList{
+  padding: 5px;
+}
+#albumDiv{
+  display: inline-block;
+  padding: 10px;
+}
+p{
+  line-height: 70%;
+}
